@@ -49,10 +49,10 @@ int main(int argc, char **argv)
 const int width = 300;
 const int height = 350;
 	glutInit(&argc,argv);
-	glutInitDisplayMode(GLUT_RGB|GLUT_DOUBLE);
+	glutInitDisplayMode(GLUT_RGB|GLUT_DOUBLE | GLUT_DEPTH);
 	glutInitWindowPosition(100,100);
 	glutInitWindowSize(width,height);
-	glOrtho(0, width, height, 0, 0, 1);
+	glOrtho(0, width, height, 0, 0, 10);
 	glutCreateWindow("Tic Tac Toe");
 	scene = new Scene(width, height);
 	initgame();

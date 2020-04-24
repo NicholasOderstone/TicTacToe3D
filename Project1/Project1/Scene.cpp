@@ -18,6 +18,10 @@ Scene::Scene(int width, int height)
 }
 void Scene::initgame()
 {
+	for (int i = 1; i < shapes.size(); i++)
+    {
+		shapes.erase(shapes.begin() + 1, shapes.end());
+    }
 	playerturn = 1; //x starts first
 	gameover = false;
 	//clear the matrix
@@ -89,58 +93,41 @@ void Scene::drawString (void * font, char *s, float x, float y){
 bool Scene::checkifwin()
 {
 	int i, j;
-    
-	//check if there are horizontal win i.e if there is any row that has same value
-	for(i = 0; i <= 2; i++)
-	{ 
-		for(j = 1; j <= 2; j++)
+	// horizontal check
+	for(i=0;i<3;i++)
+	{
+		for(j=1;j<3;j++)
 		{
-			if(matrix[i][0] != 0 && matrix[i][0] == matrix[i][j])
+			if(matrix[i][0]!=0 && matrix[i][0]==matrix[i][j])
 			{
-				if(j == 2)
+				if(j==2)
+				{
+					return true;
+				}
+			}
+			else
+				break;
+		}
+	}
+	// vertical check
+	for(i=0;i<3;i++)
+	{
+		for(j=1;j<3;j++)
+		{
+			if(matrix[0][i]!=0 && matrix[0][i]==matrix[j][i])
+			{
+				if(j==2)
 					return true;
 			}
 			else
 				break;
 		}
 	}
-    
-	//check if there are vertical win i.e if there is any column that has same value
-	for(i = 0; i <= 2; i++)
-	{
-		for(j = 1; j <= 2; j++)
-		{
-			if(matrix[0][i] != 0 && matrix[0][i] == matrix[j][i])
-			{
-				if(j == 2)
-					return true;
-			}
-			else
-				break;
-		}
-	}
-    
-	//check if there is any diagonal win i.e. if there is any diagonals that has same value
-	for(i = 1; i <= 2; i++)
-	{
-		if(matrix[0][0] != 0 && matrix[0][0] == matrix[i][i])
-		{
-			if(i == 2)
-				return true;
-		}
-		else
-            break;
-	}
-	for(i = 1; i <= 2; i++)
-	{
-		if(matrix[2][0] != 0 && matrix[2][0] == matrix[2 - i][i])
-		{
-			if(i == 2)
-				return true;
-		}
-		else
-            break;
-	}
+	// Diagonal check
+	if((matrix[0][0]!=0 && matrix[0][0]==matrix[1][1] && matrix[0][0]==matrix[2][2]) 
+	|| (matrix[2][0]!=0 && matrix[2][0]==matrix[1][1] && matrix[2][0]==matrix[0][2]))
+		return true;
+	return false;
 }
 
 //This function checks if the match is a draw i.e it returns false if there is atleast one empty box else returns true 
@@ -161,7 +148,7 @@ bool Scene::checkifdraw()
 
 void Scene::display()
 {
-	glClear(GL_COLOR_BUFFER_BIT);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glClearColor(1, 1, 1, 1);
 	glColor3f(0, 0, 0);
 	if(playerturn == 1)
