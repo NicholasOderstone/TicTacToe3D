@@ -1,0 +1,51 @@
+﻿'Project1.exe' (Win32): Loaded 'C:\VS2012_Projects\Project1\Debug\Project1.exe'. Symbols loaded.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\kernel32.dll'
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\glu32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\glut32.dll'. Module was built without symbols.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\win32u.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32full.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcr110d.dll'. Symbols loaded.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp110d.dll'. Symbols loaded.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmm.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmmbase.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cfgmgr32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\opengl32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\advapi32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ddraw.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dciman32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\uxtheme.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\combase.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbase.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleaut32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp_win.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvaci.inf_amd64_f658c3ebd2a88192\nvinit.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\version.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ig7icd32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\igdusc32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wtsapi32.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\version.dll'
+'Project1.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvaci.inf_amd64_f658c3ebd2a88192\nvinit.dll'
+The thread 0x22a4 has exited with code 0 (0x0).
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\powrprof.dll'. Cannot find or open the PDB file.
+'Project1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. Cannot find or open the PDB file.
+The thread 0x2ff4 has exited with code 0 (0x0).
+The thread 0x12d0 has exited with code 0 (0x0).
+The thread 0xd78 has exited with code 0 (0x0).
+The thread 0x290c has exited with code 0 (0x0).
+The thread 0x10e8 has exited with code 0 (0x0).
+The program '[7336] Project1.exe' has exited with code 0 (0x0).
